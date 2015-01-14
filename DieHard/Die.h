@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 @protocol DieDelegate
 -(void)dieRolledWithValue:(int)value;
+-(void)dieFellOffTable;
 @end
 
 @interface Die : NSObject

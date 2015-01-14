@@ -27,7 +27,11 @@
 }
 
 -(void)dieRolledWithValue:(int)value {
-    NSLog(@"Hi! I'm the view controller and the die told me it rolled: %d", value);
+    self.dieLabel.text = [NSString stringWithFormat:@"%d", value];
+}
+
+-(void)dieFellOffTable {
+    self.dieLabel.text = @"💩";
 }
 
 
