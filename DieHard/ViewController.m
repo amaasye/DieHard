@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "Die.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *dieLabel;
 
 @end
 
@@ -16,12 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+}
+- (IBAction)onRollDieButtonTapped:(UIButton *)sender {
+    Die *funkyDie = [[Die alloc]init];
+    [funkyDie roll];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

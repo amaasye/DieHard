@@ -14,6 +14,7 @@
 		B0537E9C1A66D08000DDA0C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0537E9B1A66D08000DDA0C1 /* Images.xcassets */; };
 		B0537E9F1A66D08000DDA0C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0537E9D1A66D08000DDA0C1 /* LaunchScreen.xib */; };
 		B0537EAB1A66D08000DDA0C1 /* DieHardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0537EAA1A66D08000DDA0C1 /* DieHardTests.m */; };
+		B0537EB61A66D41800DDA0C1 /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = B0537EB51A66D41800DDA0C1 /* Die.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B0537EA41A66D08000DDA0C1 /* DieHardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DieHardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0537EA91A66D08000DDA0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0537EAA1A66D08000DDA0C1 /* DieHardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DieHardTests.m; sourceTree = "<group>"; };
+		B0537EB41A66D41800DDA0C1 /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
+		B0537EB51A66D41800DDA0C1 /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				B0537E931A66D08000DDA0C1 /* AppDelegate.m */,
 				B0537E951A66D08000DDA0C1 /* ViewController.h */,
 				B0537E961A66D08000DDA0C1 /* ViewController.m */,
+				B0537EB41A66D41800DDA0C1 /* Die.h */,
+				B0537EB51A66D41800DDA0C1 /* Die.m */,
 				B0537E981A66D08000DDA0C1 /* Main.storyboard */,
 				B0537E9B1A66D08000DDA0C1 /* Images.xcassets */,
 				B0537E9D1A66D08000DDA0C1 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				B0537E971A66D08000DDA0C1 /* ViewController.m in Sources */,
 				B0537E941A66D08000DDA0C1 /* AppDelegate.m in Sources */,
+				B0537EB61A66D41800DDA0C1 /* Die.m in Sources */,
 				B0537E911A66D08000DDA0C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
