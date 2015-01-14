@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "Die.h"
 
-@interface ViewController ()
+@interface ViewController () <DieDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *dieLabel;
 
 @end
@@ -22,9 +22,13 @@
 }
 - (IBAction)onRollDieButtonTapped:(UIButton *)sender {
     Die *funkyDie = [[Die alloc]init];
+    funkyDie.delegate = self;
     [funkyDie roll];
 }
 
+-(void)dieRolledWithValue:(int)value {
+    NSLog(@"Hi! I'm the view controller and the die told me it rolled: %d", value);
+}
 
 
 @end
